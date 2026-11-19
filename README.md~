@@ -1,0 +1,35 @@
+A portfolio website assignment.
+
+Basically jumble of HTML and CSS basic scripts for the website.
+
+OVERVIEW 
+
+portfolio website showcasing my works and skills.
+
+GOAL 
+
+practicing making a website while not depending on AI as I can
+
+TARGET 
+
+people who wants to know more about me.
+
+CODE 
+
+consist of HTML and CSS
+
+LAYOUT 
+
+navigation bar profile about me projects/my works skills contacts footer
+
+NOTES AI 
+
+was used during pre-production phase like designs AI was used during CSS coding when making the profile image next to text and contacts section
+
+
+
+UPDATE 0.1
+
+added javascript animations to my portfolio
+added back to top button
+added fade in animation when scroll in view

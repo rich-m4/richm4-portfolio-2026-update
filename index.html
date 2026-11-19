@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>RichM4</title>
+</head>
+<script src="animations.js"></script>
+<script src="scroll-animation.js"></script>
+<script src="menu.js"></script>
+<script src="back-to-top.js"></script>
+<body>
+    <div class="header-nav">
+    <nav class="navbar" aria-label="Main navigation">
+
+        <a href="index.html" class="logo">RICHMOND T.</a>
+
+        <!-- Hamburger button -->
+        <button class="hamburger"
+                id="hamburger"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="navLinks">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
+
+        <!-- Navigation links -->
+        <div class="navlink" id="navLinks">
+            <a href="#" onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;">HOME</a>
+            <a href="#about">ABOUT ME</a>
+            <a href="#work">MY WORKS</a>
+            <a href="#skills">SKILLS</a>
+            <a href="#blog">BLOG</a>
+            <a href="#contacts">CONTACTS</a>
+        </div>
+
+    </nav>
+</div>
+
+    <section class="profile"> <!--profile image and text thing-->
+        <div class="profile-text">
+            <div class="txtbig">
+                <h1 class="bigtxt" id="">NEW DAY, <span class="redtextp">NEW HELL.</span></h1>
+            </div>
+            <p class="liltxt">My name is Richmond. I’m an artist expressing my creativity through drawing and exploring more.</p>
+        </div>
+        <img class="profile-image" src="assets/pic1.png" alt="cag">
+    </section>
+
+    <div class="marg">
+        <div class="colorbrown">
+            <section>
+                <div class="about">
+                    <h1 id="about">About me</h1> <!--about me section-->
+                    <p>
+                        I’m an artist/illustrator drawing whatever I want and exploring new things while implementing them into 
+                        my drawings (I plan to open commision soon). I also do some cosplay but military related for now. 
+                        I’m currently studying computer science to learn about coding and game design. In the future, I hope to make
+                        several game projects, make more wonderful drawings, and maybe get into voice acting as well!
+                    </p>
+                </div>
+            </section>
+            <section>
+                <div class="work">
+                    <h1 id="work">My works</h1> <!--my works section-->
+                    <div class="work-asset">
+                        <img src="assets/pic1.png" alt="">
+                        <img src="assets/pic3.png" alt="">
+                        <img src="assets/pic4.jpg" alt="">
+                        <img src="assets/pic2.png" alt="">
+                    </div>
+                </div>
+            </section>
+        </div>
+            
+        <div class="colorred">
+            <section>
+                <h1 class="skilltxt" id="skills">Skills</h1> <!--skills section-->
+                <ul class="listtxt">
+                    <li>
+                        <p>Analysis</p>
+                    </li>
+                    <li>
+                        <p>Strategic planning</p>
+                    </li>
+                    <li>
+                        <p>Troubleshooting</p>
+                    </li>
+                    <li>
+                        <p>Decision-making</p>
+                    </li>
+                    <li>
+                        <p>Collaboration</p>
+                    </li>
+                    <li>
+                        <p>Leadership</p>
+                    </li>
+                </ul>
+                <img src="assets/rr.png" alt="">
+            </section>
+        </div>
+        
+        <div class="colorwhit">
+            <section>
+                <div class="contacts">
+                   <h2 id="contacts">GET IN TOUCH</h2> <!--contacts section-->
+                   <div class="contact-details">
+                    <p>OPEN FOR COLLABS</p>
+                    <p>
+                        EMAIL: richblrw25@gmail.com
+                    </p>
+                    <p>
+                        <span class="discord"></span>
+                        DISCORD: rich.m4
+                    </p>
+                   </div>
+                </div>
+            </section>
+            <footer class="footer">
+                Copyright © 2026 Richmond T. | All rights reserved 
+            </footer>
+        </div>
+    </div>
+    <!-- BACK TO TOP BUTTON -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top" title="Go to top">
+        ↑
+    </button>
+</body>
+</html>
